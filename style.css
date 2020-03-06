@@ -5,3 +5,8 @@
  li {
      display: inline;
  }
+
+ select{
+     width : 250px;
+     height: 50px;
+ }
