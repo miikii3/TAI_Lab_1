@@ -8,65 +8,80 @@
 </head>
 
 <body>
+
+<ul class="nav justify-content-center">
+    <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="quiz.html">Quiz</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="kontakt.html">Kontakt</a>
+    </li>
+</ul>
+
     <form>
-        <div>
-            <div>
-                <label>Imie:</label>
+        <div class="container row">
+            <div class = "col-5" style = "background-color:white">
                 <div>
-                    <input type = "text" placeholder="Podaj imie">
-                </div>
-            </div>
-            <div>
-                <label>Nazwisko:</label>
-                <div>
-                    <input type = "text" placeholder="Podaj nazwisko">
-                </div>
-            </div>
-            <div>
-                <label>E-mail:</label>
-                <div>
-                    <input type = "text" placeholder="Podaj nazwisko">
-                </div>
-            </div>
-            <div>
-                <label>Plec:</label>
-                <div>
-                    <div class ="form-check-inline">
-                        <input name="radioButtons" type = "radio">
-                        <label class ="odstep">Mezczyzna</label>
-                    </div>
-                    <div class ="form-check-inline">
-                        <input name="radioButtons" type = "radio">
-                        <label class="odstep">Kobieta</label>
+                    <label>Imie:</label>
+                    <div>
+                        <input type = "text" placeholder="Podaj imie">
                     </div>
                 </div>
-            </div>
-            <div>
-                <label>Opis</label>
                 <div>
-                    <textarea rows="4" cols="50"></textarea>
+                    <label>Nazwisko:</label>
+                    <div>
+                        <input type = "text" placeholder="Podaj nazwisko">
+                    </div>
                 </div>
-            </div>
-            <div>
-                <label>Wiek:</label>
                 <div>
-                    <input type="number">
+                    <label>E-mail:</label>
+                    <div>
+                        <input type = "text" placeholder="Podaj nazwisko">
+                    </div>
                 </div>
-            </div>
-            <div>
-                <label>Stan cywilny</label>
                 <div>
-                    <select>
-                        <option value="1">Opcja1</option>
-                        <option value="2">Opcja2</option>
-                        <option value="3">Opcja3</option>
-                        <option value="4">Opcja4</option>
-                    </select>
+                    <label>Plec:</label>
+                    <div>
+                        <div class ="form-check-inline">
+                            <input name="radioButtons" type = "radio">
+                            <label class ="odstep">Mezczyzna</label>
+                        </div>
+                        <div class ="form-check-inline">
+                            <input name="radioButtons" type = "radio">
+                            <label class="odstep">Kobieta</label>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div style="padding: 10px">
-                <button>Wyczysc</button>
-                <button>Wyslij</button>
+                <div>
+                    <label>Opis</label>
+                    <div>
+                        <textarea rows="4" cols="50"></textarea>
+                    </div>
+                </div>
+                <div>
+                    <label>Wiek:</label>
+                    <div>
+                        <input type="number">
+                    </div>
+                </div>
+                <div>
+                    <label>Stan cywilny</label>
+                    <div>
+                        <select>
+                            <option value="1">Opcja1</option>
+                            <option value="2">Opcja2</option>
+                            <option value="3">Opcja3</option>
+                            <option value="4">Opcja4</option>
+                        </select>
+                    </div>
+                </div>
+                <div style="padding: 10px">
+                    <button>Wyczysc</button>
+                    <button>Wyslij</button>
+                </div>
             </div>
         </div>
     </form>
