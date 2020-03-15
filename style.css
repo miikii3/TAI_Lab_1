@@ -12,3 +12,8 @@
      display : inline;
  }
 
+
+ .bottom {
+     display : flex;
+     align-content : flex-end;
+ }
