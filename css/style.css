@@ -17,3 +17,8 @@
      display : flex;
      align-content : flex-end;
  }
+
+ .navigation {
+     display : flex;
+     justify-content: center;
+ }
